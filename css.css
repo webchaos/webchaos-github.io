@@ -1,0 +1,205 @@
+﻿body{background: url(images/img.jpg) no-repeat;
+     background-size: 100%;
+     overflow: hidden;
+     
+
+}
+
+.folder{ 
+margin-left: 15%;
+margin-top: 15%;
+transform: rotate(-1deg);
+
+}
+
+.list0{ 
+        
+
+       position: absolute;    
+
+left: 15.5%;
+top: 30%;
+z-index: 100;
+}
+
+
+
+
+.list{ 
+        
+
+       position: absolute;    
+
+left: 18%;
+top: 38%
+}
+
+
+ 
+ .anim{
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+ -webkit-backface-visibility: hidden !important;
+  backface-visibility: hidden !important;
+  -webkit-animation-name: perspectiveDown;
+    animation-name: perspectiveDown;
+  
+ 
+}
+@-webkit-keyframes perspectiveDown {
+  0% {
+    -webkit-transform-origin: 0 100%;
+    -webkit-transform: perspective(500px) rotateX(0deg);
+  }
+
+  100% {
+    -webkit-transform-origin: 0 100%;
+    -webkit-transform: perspective(500px) rotateX(-84deg);
+  }
+}
+@keyframes perspectiveDown {
+  0% {
+    transform-origin: 0 100%;
+    transform: perspective(1500px) rotateX(0deg);
+  }
+
+  100% {
+    transform-origin: 0 100%;
+    transform: perspective(2100px) rotateX(-84deg);
+  }
+}
+
+
+
+.text {width: 75%;
+       top: 5%;
+       left: 70%;
+       position: absolute;
+       font-family: Comic Sans MS;
+       font-size: 23px;
+       transform: rotate(-1deg);
+       text-shadow: 1.5px 0.5px 2px gray;
+       
+       
+}
+a {text-decoration: none;
+   
+} 
+
+a:hover {color: blue;
+         text-shadow: 3px 3px 3px gray;
+} 
+
+
+
+.chaos {font-size: 35px;
+        font-family: Comic Sans MS;
+        color:  #F5F5F5;
+        margin-top: -51%; margin-left: 5%;
+        text-shadow: 4px 2px 4px black;
+        transform: rotate(-1deg);
+		
+        }
+
+
+
+label {display: none;
+	position: absolute; 
+background: 50% 0% url(images/input.png) no-repeat;
+background-size: auto 80%;
+min-width: 10%;
+min-height: 15%;
+height: 120px;
+left: 75%;
+top: 50%;}
+label:hover {background: 50% 0% url(images/hover.png) no-repeat;
+background-size: auto 80%;
+transition: 200ms;
+cursor: pointer;
+}
+
+input[type=radio] {display: none;}
+
+#slide1:checked ~ #controls label:nth-child(2), 
+#slide2:checked ~ #controls label:nth-child(3), 
+#slide3:checked ~ #controls label:nth-child(4), 
+#slide4:checked ~ #controls label:nth-child(5)
+{
+display: block;}
+		
+/* стиль фотографии на слайде*/		
+.polaroyd {width: 250px; 
+           height: auto; 
+           position: absolute; 
+           top: 10%;
+           transform: rotate(-2deg);
+}
+
+
+.chaos2 { font-size: 35px;
+        font-family: Comic Sans MS;
+        margin-top: 40%; margin-left: 33%;
+        text-shadow: 4px 2px 4px black;
+        transform: rotate(-1deg);
+        color: white;
+        }
+.chaos2:visited, .chaos:link {color: white;}
+a{ color: white;}
+
+.a1{text-decoration: underline;
+     color: #d2d2d6;
+}
+.text a {color: slateblue;}
+
+.text2 {font-size: 35px;
+        font-family: Comic Sans MS;
+        margin-top: 15%; margin-left: 30%;
+        text-shadow: 2px 2px 4px black;
+        transform: rotate(-1deg);
+        color: white;}
+
+ul { font-size: 30px;
+        font-family: Comic Sans MS;
+        margin-top: 5%; margin-left: 30%;
+        text-shadow: 2px 2px 4px black;
+        transform: rotate(-1deg);
+        color: white;
+        list-style:none;   
+        padding: 10px;
+}
+
+
+/*для широкоформатных мониторов (не трогать!)*/
+@media screen and (min-device-aspect-ratio: 16/9) {body  {width: 100%;
+height: auto; background-size: 100% 100%;}
+.chaos {margin-top: -42%;
+font-size: 32px;
+margin-left: 15%; }
+.folder  {display: block;
+width: 45%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 14%;}
+.list0 {display: block;
+width: 45%;
+left: 28.5%;
+top: 31%; 
+}
+.list {left: 30.5%;
+width: 25%;
+top: 39.5%;
+}
+.polaroyd {width: 200px; 
+height: auto; 
+position: absolute; 
+top: 10%;
+left: 5%;
+ transform: rotate(-2deg);}
+.text {font-size: 20px;} 
+.chaos2 {position: absolute; 
+top: 10%; 
+left: 5%;
+font-size: 32px;}
+}
+/*конец свойств для широкоформатников*/
