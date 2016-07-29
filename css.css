@@ -53,7 +53,7 @@ min-height: 15%;
 height: 120px;
 left: 15%;
 top: 50%;
-transform: rotate(270deg)}
+transform: rotate(200deg)}
 .back:hover {background: 50% 0% url(images/hover.png) no-repeat;
 background-size: auto 80%;
 transition: 200ms;
