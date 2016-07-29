@@ -44,9 +44,23 @@ top: 38%
   backface-visibility: hidden !important;
   -webkit-animation-name: perspectiveDown;
     animation-name: perspectiveDown;
-  
- 
+ }
+.back {position: absolute; 
+background: 50% 0% url(images/input.png) no-repeat;
+background-size: auto 80%;
+min-width: 10%;
+min-height: 15%;
+height: 120px;
+left: 15%;
+top: 50%;
+transform: rotate(-180deg)}
+.back:hover {background: 50% 0% url(images/hover.png) no-repeat;
+background-size: auto 80%;
+transition: 200ms;
+cursor: pointer;
 }
+ 
+
 @-webkit-keyframes perspectiveDown {
   0% {
     -webkit-transform-origin: 0 100%;
