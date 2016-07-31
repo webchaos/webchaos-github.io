@@ -1,4 +1,4 @@
-﻿/*Раскадровка анимаций*/
+/*Раскадровка анимаций*/
 @-webkit-keyframes perspectiveDown {
   0% {
     -webkit-transform-origin: 0 100%;
@@ -164,6 +164,7 @@ a:hover {
 	display: block;
 	font-size: 2em;
 	width: 70%;
+	height: 18%;
 	font-family: Comic Sans MS;
 	color:  #F5F5F5;
 	margin: auto;
@@ -232,52 +233,65 @@ input[type=radio] {
 	color: white;
 }
 .chaos2:visited, .chaos:link {color: white;}
-a{ color: white;}
 
-.a1{text-decoration: underline;
-     color: #d2d2d6;
+a{color: white;}
+
+.a1{
+	text-decoration: underline;
+    color: #d2d2d6;
 }
+
 .text a {color: slateblue;}
 
-.text2 {font-size: 35px;
-        font-family: Comic Sans MS;
-        margin-top: 15%; margin-left: 30%;
-        text-shadow: 2px 2px 4px black;
-        transform: rotate(-1deg);
-        color: white;}
+.text2 {
+	font-size: 2em;
+	font-family: Comic Sans MS;
+	margin-top: 15%; 
+	margin-left: 30%;
+	text-shadow: 2px 2px 4px black;
+	transform: rotate(-1deg);
+	color: white;
+}
 
-ul { font-size: 30px;
-        font-family: Comic Sans MS;
-        margin-top: 5%; 
-		margin-left: 30%;
-        text-shadow: 2px 2px 4px black;
-        transform: rotate(-1deg);
-        color: white;
-        list-style:none;   
-        padding: 10px;
+ul {
+	font-size: 1.8em;
+	font-family: Comic Sans MS;
+	margin-top: 5%; 
+	margin-left: 30%;
+	text-shadow: 2px 2px 4px black;
+	transform: rotate(-1deg);
+	color: white;
+	list-style:none;   
+	padding: 10px;
 }
 
 /*для широкоформатных мониторов (не трогать!)*/
-@media screen and (min-device-aspect-ratio: 16/9) {body  {width: 100%;
-height: auto; background-size: 100% 100%;}
-/* .chaos {margin-left: 15%; } */
-.folder  {display: block;
-width: 45%;
-}
-.list0 {display: block;
-width: 45.7%;
-left: 27.5%;
-top: 13.5%; 
-}
-.list {left: 29.5%;
-width: 41%;
-top: 21%;
-}
+@media screen and (min-device-aspect-ratio: 16/9) {
+	body  {
+		width: 100%;
+		height: auto; 
+		background-size: 100% 100%;
+	}
+	/* .chaos {margin-left: 15%; } */
+	.folder  {
+		display: block;
+		width: 45%;
+	}
+	.list0 {
+		width: 45.7%;
+		left: 27.5%;
+		top: 13.5%; 
+	}
+	.list {
+		left: 29.5%;
+		width: 41%;
+		top: 21%;
+	}
 
-.text {font-size: 20px;} 
-/* .chaos2 {position: absolute; 
-top: 8%; 
-left: 5%;
-} */
+	.text {font-size: 20px;} 
+	/* .chaos2 {position: absolute; 
+		top: 8%; 
+		left: 5%;
+	} */
 }
 /*конец свойств для широкоформатников*/
