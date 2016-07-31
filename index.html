@@ -10,17 +10,17 @@
 
 
 <body>
-
-<img src="images/img4.png" width="60%" height="60%" class="folder">
+<article>
+<img src="images/img4.png" class="folder">
 <div class="list"> 
-<img src="images/img5.png" width="165%" height="51%"> 
+<!-- <img src="images/img5.png">  -->
 <img src="images/imglist3.png" class=polaroyd onclick=radio()>
-<p class=text>Радио жанра <a href=https://thereisnofuture.github.io/ target="_blank" ><strong>Post-rock.</strong></a> Один из наших самых первых проектов
+<p class=text>Радио жанра <a href=https://thereisnofuture.github.io/ target="_blank" ><strong>Post-rock.</strong></a><br> Один из наших самых первых проектов
 </p>
 
 </div>
 <div class="list" id="list2">
-<img src="images/img5.png" width="165%" height="51%">
+<!-- <img src="images/img5.png"> -->
 <img src="images/imglist2.png" class=polaroyd onclick=hat()> 
 <p class=text>Сайт <a href=https://sortinghattest.github.io/ target="_blank" ><strong>распределяющей шляпы</strong></a> являет из себя тест
 распределения по факультетам хогвартса
@@ -30,7 +30,7 @@
 </div>
 
 <div class="list" id="list1">
-<img src="images/img5.png" width="165%" height="51%">
+<!-- <img src="images/img5.png"> -->
 <img src="images/imglist1.png" class=polaroyd onclick=relax()>
 <p class="text"> Наш сайт с говорящим названием <a href=https://relaxside.github.io/ target="_blank" ><strong>"relaxside"</strong></a>
 представляет из себя интерактивную прогулку
@@ -39,7 +39,7 @@
 </p> 
 </div>
 
-<img src="images/img3.png" width="60%" height="60%" class="list0" id='list0'>
+<img src="images/img3.png" class="list0" id='list0'>
 <input checked type=radio id=slide1 name=slider>
 <input type=radio id=slide2 name=slider>
 <input type=radio id=slide3 name=slider>
@@ -50,6 +50,7 @@
 <label onclick=page2() for=slide3></label> 
 <label onclick=page3() for=slide4></label> 
 </div>
+</article>
 <div class=chaos>
 Этот веб сайт, является визитной карточкой команды <br>разработчиков web-chaos, для ознакомления с примерами 
 <br> наших работ вам нужно просто открыть папку снизу </div>
@@ -68,7 +69,7 @@ list1.classList.add ('anim')
 
 }
 function page3() {
-list2.classList.add ('anim')
+list2.classList.add ('anim2')
 
 }
 function radio() 
