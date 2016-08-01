@@ -64,7 +64,8 @@ article {
 	height: 100%;
 	margin: 0%;
 	padding: 0%;
-	top: 13%;
+	top: 10%;
+	left: -2%;
 }
 
 
@@ -79,7 +80,7 @@ article {
 .list0{ 
 	position: absolute;    
 	left: 22.5%;
-	top: 13%;
+	top: 13.5%;
 	z-index: 100;
 	width: 56%;
 	height: 60%;
@@ -89,9 +90,9 @@ article {
 	position: absolute;
 	background: 0% 0% url("images/img5.png") no-repeat;
 	background-size: 100%;    
-	left: 24%;
+	left: 25%;
 	top: 20%;
-	width: 50%;
+	width: 51%;
 	height: 51%;
 
 }
@@ -182,7 +183,7 @@ label {
 	min-width: 10%;
 	min-height: 15%;
 	height: 120px;
-	left: 75%;
+	left: 78%;
 	top: 40%;
 }
 
@@ -293,5 +294,14 @@ ul {
 		top: 8%; 
 		left: 5%;
 	} */
+article {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	padding: 0%;
+	top: 13%;
+}
+	
 }
 /*конец свойств для широкоформатников*/
