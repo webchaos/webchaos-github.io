@@ -164,7 +164,6 @@ a:hover {
 .chaos {
 	display: block;
 	font-size: 2em;
-	width: 70%;
 	height: 16%;
 	font-family: Comic Sans MS;
 	color:  #F5F5F5;
@@ -302,6 +301,7 @@ article {
 	padding: 0%;
 	top: 13%;
 }
-	
+.chaos{width: 70%;}	
 }
 /*конец свойств для широкоформатников*/
+@media screen and (min-width: 1680px) {.chaos{width: 70%;}}
