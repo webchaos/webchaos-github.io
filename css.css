@@ -52,7 +52,7 @@ html{
 	}
 	
 body{
-	background: 0% 50% url("images/img.jpg") no-repeat;
+	background: url("images/img.jpg") no-repeat;
 	background-size: 100% auto;
 	overflow: hidden; 
 	padding; 0%;
