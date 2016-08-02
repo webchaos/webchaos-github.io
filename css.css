@@ -164,7 +164,9 @@ a:hover {
 .chaos {
 	display: flex;
 	justify-content: space-around;
-	align-items: flex-start;
+	align-content: flex-start;
+	flex-direction: column;
+	flex-shrink: 2;
 	font-size: xx-large;
 	height: 16%;
 	max-height: 16%;
