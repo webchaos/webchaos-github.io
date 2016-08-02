@@ -162,21 +162,17 @@ a:hover {
 } 
 
 .chaos {
-	display: flex;
-	justify-content: space-around;
-	align-content: flex-start;
-	flex-direction: column;
-	flex-shrink: 2;
-	font-size: xx-large;
+	display: block;
+	font-size: 2em;
 	height: 16%;
-	max-height: 16%;
 	font-family: Comic Sans MS;
 	color:  #F5F5F5;
-	text-align: center;
+	margin: auto;
 	margin-top: 1.5%;
+	text-shadow: 4px 2px 4px black;
+	transform: rotate(-1deg);
 }
-.chaos p {text-shadow: 4px 2px 4px black;
-	transform: rotate(-1deg);}
+
 /*кнопка-листалка*/
 label {
 	display: none;
@@ -305,7 +301,7 @@ article {
 	padding: 0%;
 	top: 13%;
 }
-/*.chaos{width: 70%;}	*/
+.chaos{width: 70%;}	
 }
 /*конец свойств для широкоформатников*/
-/*@media screen and (min-width: 1680px) {.chaos{width: 70%;}}*/
+@media screen and (min-width: 1680px) {.chaos{width: 70%;}}
