@@ -165,7 +165,7 @@ a:hover {
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
-	font-size: large;
+	font-size: larger;
 	height: 16%;
 	max-height: 16%;
 	font-family: Comic Sans MS;
